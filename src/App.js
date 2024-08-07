@@ -8,12 +8,13 @@ import Footer from './components/Footer';
 import './styles/App.css';
 
 const App = () => (
-  <Router>
+  <Router basename="/kgbeauty">
     <Header />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/services" element={<Services />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
     <Footer />
   </Router>
