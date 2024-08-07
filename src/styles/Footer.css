@@ -1,0 +1,29 @@
+footer {
+  background: linear-gradient(to bottom, white, rgba(84, 150, 249, 0.8));
+  color: #0a0909;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+footer li {
+  margin: 0 1rem;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

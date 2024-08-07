@@ -1,0 +1,28 @@
+header {
+  background: linear-gradient(to bottom, white, rgba(84, 150, 249, 0.8));
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #107df9;
+}

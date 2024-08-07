@@ -1,0 +1,88 @@
+.home {
+  background: linear-gradient(to bottom right, #e2f0f7, #d5ecf8);
+  color: #333;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.intro-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.nurse-image {
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 2rem;
+}
+
+.intro-text {
+  flex: 1;
+}
+
+.intro-text h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.intro-text p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.about-section {
+  background: linear-gradient(
+    to bottom,
+    #ffffff,
+    #b3e5fc
+  );
+  color: #333;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+.about-section h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+  font-size: 1rem;
+}
+
+.faq-section {
+  background: linear-gradient(
+    to bottom,
+    #ffffff,
+    #b3e5fc
+  ); 
+  color: #333;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.faq-section h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.faq {
+  margin-bottom: 1rem;
+}
+
+.faq h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.faq p {
+  font-size: 1rem;
+  display: none;
+}
