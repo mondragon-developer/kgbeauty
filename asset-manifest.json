@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/kgbeauty/static/css/main.f477b0b9.css",
-    "main.js": "/kgbeauty/static/js/main.2715069d.js",
+    "main.js": "/kgbeauty/static/js/main.5a647db6.js",
     "static/media/locationmap.png": "/kgbeauty/static/media/locationmap.44e6590a1eda79aa0117.png",
     "static/media/botoxmap.png": "/kgbeauty/static/media/botoxmap.19f1ef3d0da5c75ccc30.png",
     "static/media/home-image.jpg": "/kgbeauty/static/media/home-image.adb900a021d0f3da5d7d.jpg",
     "index.html": "/kgbeauty/index.html",
     "main.f477b0b9.css.map": "/kgbeauty/static/css/main.f477b0b9.css.map",
-    "main.2715069d.js.map": "/kgbeauty/static/js/main.2715069d.js.map"
+    "main.5a647db6.js.map": "/kgbeauty/static/js/main.5a647db6.js.map"
   },
   "entrypoints": [
     "static/css/main.f477b0b9.css",
-    "static/js/main.2715069d.js"
+    "static/js/main.5a647db6.js"
   ]
 }
