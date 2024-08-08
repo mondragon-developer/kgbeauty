@@ -10,7 +10,7 @@ const handleAppointmentClick = () => {
 
 const handleWhatsAppClick = () => {
   window.open(
-    "https://wa.me/+17542136490?text=Hello%20KG%20Beauty%2C%20I%20would%20like%20to%20make%20an%20appointment"
+    "https://wa.me/+17543133444?text=Hello%20KG%20Beauty%2C%20I%20would%20like%20to%20make%20an%20appointment"
   );
 };
 
@@ -26,7 +26,7 @@ const Contact = () => (
           Feel free to reach out to us for any inquiries or to book an
           appointment.
         </p>
-        <p>Phone: +1 954-516-8988</p>
+        <p>Phone: +1 754-3133444</p>
         <button onClick={handleWhatsAppClick} className="whatsapp-button">
           Chat on WhatsApp
         </button>

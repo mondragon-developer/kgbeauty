@@ -12,10 +12,24 @@
 }
 
 .nurse-image {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   height: auto;
   border-radius: 8px;
   margin-right: 2rem;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .nurse-image {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nurse-image {
+    width: 500px;
+  }
 }
 
 .intro-text {
@@ -35,11 +49,7 @@
 }
 
 .about-section {
-  background: linear-gradient(
-    to bottom,
-    #ffffff,
-    #b3e5fc
-  );
+  background: linear-gradient(to bottom, #ffffff, #b3e5fc);
   color: #333;
   padding: 2rem;
   border-radius: 8px;
@@ -57,11 +67,7 @@
 }
 
 .faq-section {
-  background: linear-gradient(
-    to bottom,
-    #ffffff,
-    #b3e5fc
-  ); 
+  background: linear-gradient(to bottom, #ffffff, #b3e5fc);
   color: #333;
   padding: 2rem;
   border-radius: 8px;
